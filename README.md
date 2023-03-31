@@ -1,4 +1,4 @@
 # Butcher-Shop
- Complete Project Using Html , Css , Scss , JS , Php , MyAdmin , Laravel9
+ Complete Full Stack Project
 
 # [Screen Record Of The Project](https://github.com/Moohameed47/Butcher-Shop/blob/main/ButcherShop.mkv)
