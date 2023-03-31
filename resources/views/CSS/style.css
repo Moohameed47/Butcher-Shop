@@ -1,0 +1,493 @@
+:root {
+	--main-color: #19283f;
+	--primary: #33d1cc;
+	--blackred: #8b0000;
+	--WOW: #aa1936;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* Start Navbar Styling */
+
+.navbar {
+	background-color: var(--main-color);
+}
+
+.ms-8 {
+	margin-left: 5 rem;
+}
+
+.w-0 {
+	width: 150px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+	color: var(--WOW);
+}
+
+.navbar .navbar-toggler {
+	color: white;
+	font-size: 25px;
+	border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.cart {
+	color: black;
+}
+
+.cart:hover {
+	color: var(--WOW);
+	cursor: pointer;
+}
+
+.navbar .container-fluid h3 {
+	font-weight: bold;
+	color: rgb(178, 167, 167);
+}
+
+.icon a {
+	color: black;
+	text-decoration: none;
+}
+
+.icon a:hover {
+	color: var(--WOW);
+}
+
+/* End Navbar Styling */
+
+/* Start Landing Styling */
+
+.landing {
+	background: var(--main-color);
+	min-height: calc(100vh - 56.4px);
+}
+
+.Head {
+	font-weight: bolder;
+}
+
+@keyframes slideContent {
+	0% {
+		opacity: 0;
+		transform: translateX(-5rem);
+	}
+}
+
+.Header1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../Images/H1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 56.4px);
+	animation: slideContent 1s normal;
+}
+
+.Header1 p a {
+	text-align: center;
+}
+
+.Header2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../Images/H2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 56.4px);
+	animation: slideContent 1s normal;
+}
+
+.Header3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../Images/H3.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 56.4px);
+	animation: slideContent 1s normal;
+}
+
+i {
+	cursor: pointer;
+	font-size: 22px;
+}
+
+.Fs-Icons-Big {
+	font-size: 2rem;
+}
+
+.w-35 {
+	width: 33%;
+}
+
+.Tran {
+	transition: all 2s ease-in-out;
+}
+
+/* End Landing Styling */
+
+/* Start Popular Products */
+.PopPro {
+	height: 90vh;
+}
+
+.PopProducts h3 {
+	font-family: "Irish Grover", cursive;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.card .card-body i {
+	font-size: 10px;
+	color: yellow;
+}
+
+.card .card-body h6 {
+	font-size: small;
+	color: rgb(134, 124, 124);
+}
+
+.main-btn {
+	background-color: var(--WOW);
+	color: white;
+	font-size: small;
+	font-weight: bolder;
+	transition: 700ms;
+}
+
+.main-btn:hover {
+	background-color: black;
+	color: white;
+}
+
+.card-title {
+	font-family: "Heebo", sans-serif;
+	font-weight: bolder;
+	transition: 400ms;
+}
+
+.card-title:hover {
+	color: darkred;
+	cursor: pointer;
+}
+
+.card-def {
+	cursor: auto;
+}
+
+.Grap {
+	cursor: grab;
+}
+
+.Grap a {
+	margin-top: 15px;
+}
+
+.Grap img {
+	height: 200px;
+}
+
+.BC {
+	height: 250px;
+	background-position: center center;
+	width: 100%;
+}
+
+/* End Popular Products */
+
+/* Start Footer */
+.link-secondary i {
+	font-size: 15px;
+}
+
+.Fs-0 {
+	font-size: 15px;
+}
+
+.text-Icons {
+	color: var(--WOW);
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+}
+
+.Footer-Links {
+	font-size: medium;
+	font-weight: bold;
+	color: rgb(134, 124, 124);
+}
+
+.Footer-Links:hover {
+	color: var(--primary);
+}
+
+.Footer-P {
+	font-size: 14px;
+	color: white;
+}
+
+.UL {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.ML-1 {
+	margin-left: 2rem;
+}
+
+.I-H {
+	color: white;
+}
+
+.I-H:hover {
+	color: var(--WOW);
+	transition: all 0.3s ease-in-out;
+}
+
+.Bg-Footer {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../Images/H2.jpg);
+	background-repeat: no-repeat;
+	height: 340px;
+}
+
+footer hr {
+	border: 1.5px solid whitesmoke;
+}
+
+/* End Footer */
+
+/* Start Quality Section */
+
+.Quality-check {
+	height: 100vh;
+	font-family: "Heebo", sans-serif;
+	background: url(../Images/QB.webp);
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.Layer {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100vh;
+}
+
+.mt-50 {
+	margin-top: 6rem;
+}
+
+/* End Quality Section */
+
+/* Start Features */
+.Fs--0 {
+	font-size: 13px;
+}
+
+.Features {
+	height: 300px;
+	justify-content: center;
+}
+
+.TB {
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 2px 5px gray;
+}
+
+.MT-Icon {
+	color: #aa1936;
+}
+
+/* End Features */
+
+/* ----------About Page----------------------------------------------------------------- */
+
+/* Start AboutLogo */
+.AboutLogo {
+	height: 200px;
+	background: linear-gradient(
+			rgba(170, 25, 54, 0.5),
+			rgba(170, 25, 54, 0.5)
+		),
+		url(../Images/LogoAbout.jpg);
+	background-position: cover cover;
+}
+
+.AboutLogo a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.Hover:hover {
+	color: black;
+	transition: all 0.2s ease-in-out;
+}
+
+/* Start AboutLogo */
+
+/* Start About Section  */
+.AboutSection {
+	height: calc(92vh - 58.4px);
+}
+
+.AboutSectionPhoto {
+	background-image: url(../Images/AboutSection.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+
+.AboutSectionText {
+	height: 365px;
+}
+
+/* End About Section  */
+
+/* ----------Product Page----------------------------------------------------------------- */
+
+.H100 {
+	height: 100vh;
+}
+
+#Category {
+	border-bottom: 2px solid var(--WOW);
+	height: 30px;
+}
+
+.ProductRight {
+	border-left: 2px solid var(--WOW);
+}
+
+.ProductLeft {
+	height: 50vh;
+}
+
+.Prod {
+	background-position: center center;
+	width: 50%;
+	margin: auto;
+	width: 12rem;
+}
+
+.Cat-Prod-Left {
+	color: black;
+	margin-bottom: 3px;
+}
+
+.Cat-Prod-Left:hover {
+	color: var(--WOW);
+	transition: all 0.2s ease-in-out;
+}
+
+#Underline {
+	border-bottom: 2px solid var(--WOW);
+	height: 15px;
+}
+
+.AllEl {
+	border: 1.5px solid #f5f5f5;
+	background-color: #f5f5f5;
+}
+
+.no-hover :hover {
+	color: #fff;
+	cursor: auto;
+}
+
+/* ----------Cart Page----------------------------------------------------------------- */
+
+.CART {
+	min-height: 90vh;
+}
+
+.AllCart {
+	border: 1px solid black;
+	height: 280px;
+}
+.AllCart img {
+	height: 150px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Quantity {
+	line-height: 22px;
+}
+.Quantity input,
+.Quantity button {
+	background-color: #fff;
+	border: 1px solid gray;
+}
+.SYP {
+	font-size: large;
+}
+.SYP:hover {
+	background-color: #000;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+.XICON {
+	top: -10px;
+	left: 630px;
+}
+
+/* ----------CheckOut page----------------------------------------------------------------- */
+.w-20 {
+	width: 20% !important;
+}
+.w-30 {
+	width: 30% !important;
+}
+.w-40 {
+	width: 40% !important;
+}
+.w-45 {
+	width: 45% !important;
+}
+.w-48 {
+	width: 48% !important;
+}
+.CartInput:focus {
+	border: 2px solid;
+	border-color: var(--WOW);
+	box-shadow: none;
+}
+
+#MessageCont {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	position: fixed;
+	left: 0px;
+	top: 100px;
+	right: 0px;
+	bottom: 0px;
+}
+#lightBox {
+	margin-top: 100px;
+	background-color: #fff;
+	height: 350px;
+	width: 700px;
+	padding-top: 20px;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.5) ;
+}
+#lightBox i {
+	font-size: 200px;
+	color: green;
+}
